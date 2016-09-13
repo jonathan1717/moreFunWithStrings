@@ -13,10 +13,10 @@ public class moreFunWithStrings
 
 	public static void exercise1()
 	{
-//		Scanner userInput = new Scanner(System.in);
-//		System.out.println("What is your name?");
-//		String name = userInput.nextLine();
-//		System.out.println("Hello, " + name + "!");
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("What is your name?");
+		String name = userInput.nextLine();
+		System.out.println("Hello, " + name + "!");
 		
 		Scanner userInput = new Scanner(System.in);
 		System.out.println("Please say something and I will give you facts about that sentence.");
