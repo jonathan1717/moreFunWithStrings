@@ -18,9 +18,9 @@ public class moreFunWithStrings
 		String name = userInput.nextLine();
 		System.out.println("Hello, " + name + "!");
 		
-		Scanner userInput = new Scanner(System.in);
+		Scanner userInput1 = new Scanner(System.in);
 		System.out.println("Please say something and I will give you facts about that sentence.");
-		String text = userInput.nextLine();
+		String text = userInput1.nextLine();
 		text=text.toLowerCase();
 		int characterCounter= text.length();
 		String textWithOutSpaces = text.replace(" ","");
