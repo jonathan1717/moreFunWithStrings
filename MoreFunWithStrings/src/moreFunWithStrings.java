@@ -6,8 +6,8 @@ public class moreFunWithStrings
 
 	public static void main(String[] args) 
 	{
-		exercise1();
-//		exercise2();
+//		exercise1();
+		exercise2();
 
 	}
 
@@ -72,4 +72,19 @@ public class moreFunWithStrings
 		System.out.println("There are " + characterCounter + " characters");
 		}	
 	
+	public static void exercise2()
+	{
+		System.out.println("Enter text");
+		Scanner userInput = new Scanner(System.in);
+		String text = userInput.nextLine();
+		int counter = 0;
+		for (int i=0; i <text.length(); i++)
+	
+		{  
+			counter++;
+			System.out.println( text.substring(0,counter));
+		}
+		
+		
+	}
 }
